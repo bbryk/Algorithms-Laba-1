@@ -43,10 +43,6 @@ with open('log.txt') as file_to_read:
 
 
 
-#     print(lines[118])
-#     print(lines[236])
-#
-# #
 for key in randomly_generated.keys():
     print(len(randomly_generated[key][0]))
     print(len(randomly_generated[key][1]))
@@ -64,21 +60,6 @@ for key in randomly_generated.keys():
 
 
 
-
-
-# ax.set_yscale('log')
-
-
-#randomly generated:
-# fig = plt.figure()
-# ax = fig.add_subplot(2, 1, 1)
-# for key in randomly_generated.keys():
-#     line, = ax.plot(powersizes, randomly_generated[key][0], color='blue', lw=1, label = key)
-#
-#
-# ax.set_yscale('log')
-#
-# pylab.show()
 
 def randomly_generated_comparisons():
     colors = ['blue','red','yellow','green']
